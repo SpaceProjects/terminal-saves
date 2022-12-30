@@ -85,7 +85,7 @@ source $ZSH/oh-my-zsh.sh
 #source ~/zsh-autocomplete/zsh-autocomplete.plugin.zsh
 #source ~/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 #eval "$(oh-my-posh init zsh --config ~/.poshthemes/atomic.omp.json)"
-eval "$(oh-my-posh init zsh --config ~/.poshthemes/M365Princess.omp.json)"
+eval "$(oh-my-posh init zsh --config ~/.poshthemes/M365Princess1.omp.json)"
 
 # User configuration
 
@@ -129,7 +129,7 @@ alias kga="kubectl get --all-namespaces"
 #alias kctx="kubectx"
 #alias kns="kubens"
 #alias myip="curl ifconfig.co"
-alias vim="nvim"
+#alias vim="nvim"
 #alias gotop="gotop -p"
 
 prompt_dir() {
