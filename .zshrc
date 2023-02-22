@@ -126,6 +126,7 @@ alias kgy="kubectl get -o yaml"
 alias kd="kubectl describe"
 alias kl="kubectl logs"
 alias kga="kubectl get --all-namespaces"
+alias kns='kubectl config set-context --current --namespace'
 #alias kctx="kubectx"
 #alias kns="kubens"
 #alias myip="curl ifconfig.co"
