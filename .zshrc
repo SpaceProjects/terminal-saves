@@ -102,7 +102,7 @@ RPROMPT='%{$fg[blue]%}($ZSH_KUBECTL_PROMPT)%{$reset_color%}'
 if [[ -n $SSH_CONNECTION ]]; then
   export EDITOR='vim'
 else
-  export EDITOR='nvim'
+  export EDITOR='vim'
 fi
 
 # Compilation flags
@@ -127,6 +127,7 @@ alias kd="kubectl describe"
 alias kl="kubectl logs"
 alias kga="kubectl get --all-namespaces"
 alias kns='kubectl config set-context --current --namespace'
+alias cls="clear"
 #alias kctx="kubectx"
 #alias kns="kubens"
 #alias myip="curl ifconfig.co"
@@ -136,3 +137,6 @@ alias kns='kubectl config set-context --current --namespace'
 prompt_dir() {
   prompt_segment blue black "%$(( $COLUMNS - 61 ))<...<%2~%<<"
 }
+
+eval `ssh-agent -s`
+ssh-add ~/.ssh/git_rsa
