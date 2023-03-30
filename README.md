@@ -14,7 +14,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 ```
 # copy .zshrc config
 ```
-curl https://raw.githubusercontent.com/SpaceProjects/terminal-saves/main/.zshrc\?token\=GHSAT0AAAAAAB4GEOW4OYKAFXRWT7T2MKISY5OTQUA > .zshrc
+curl https://raw.githubusercontent.com/SpaceProjects/terminal-saves/main/.zshrc > .zshrc
 ```
 # install plugins
 ```git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
@@ -23,4 +23,8 @@ sudo wget https://github.com/JanDeDobbeleer/oh-my-posh/releases/latest/download/
 sudo chmod +x /usr/local/bin/oh-my-posh
 
 mkdir .poshthemes
-curl https://raw.githubusercontent.com/SpaceProjects/terminal-saves/main/M365Princess1.omp.json?token=GHSAT0AAAAAAB4GEOW4ELGDBKD3ZFMS4PD2Y5OT6VQ > ~/.poshthemes/M365Princess1.omp.json```
+curl https://raw.githubusercontent.com/SpaceProjects/terminal-saves/main/M365Princess1.omp.json > ~/.poshthemes/M365Princess1.omp.json
+
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+```
+
