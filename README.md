@@ -1,6 +1,17 @@
 # terminal-saves
 font - https://github.com/ryanoasis/nerd-fonts/releases/download/v2.2.2/LiberationMono.zip <br/>
 use Literation Mono Nerd Font Complete Windows Compatible.ttf
+
+# installing apps
+VS Code: https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user
+
+# installing WSL
+```wsl --install
+start ms-windows-store:
+# search for "wsl ubuntu" and install it
+wsl --install -d ubuntu
+```
+
 # installing zsh
 ```sudo apt update
 sudo apt install zsh -y
